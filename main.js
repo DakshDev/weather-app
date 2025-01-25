@@ -40,20 +40,12 @@ function WeatherInfo(location, humidity, wind_kph, temperature){
 
 
 
-
-
-
-
-
-
-
 search_button.addEventListener("click", afterClick);
 search_inp.addEventListener("keypress", (e)=>{
     if(e.key == "Enter"){
         afterClick()
     }
 });
-
 
 
 function afterClick(){
@@ -63,18 +55,6 @@ function afterClick(){
         console.log("Err")
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

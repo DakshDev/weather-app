@@ -7,29 +7,20 @@
     border: none;
     outline: none;
 }
-
-
 html,body{
     height: 100%;
     width: 100%;
     background: #232323;
 }
-img{
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
 body{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
-
+img{
+    height: 100%;
+    width: 100%;
+}
 #main_container{
     height: 600px;
     width: 450px;
@@ -42,8 +33,8 @@ body{
 }
 
 
-/* Search Box */
 
+/* Search Box */
 [search_box]{
     display: flex;
     align-items: center;
@@ -51,14 +42,12 @@ body{
     overflow: hidden;
     border-radius: 5px;
 }
-
 [search_box] > input{
     height: 100%;
     width: 100%;
     padding: 5px 10px;
     background: #f6f6f6;
 }
-
 [search_box] > button{
     height: 35px;
     width: 35px;
@@ -71,19 +60,12 @@ body{
 }
 
 
-
-
-
-
-
 /* Weather Box */
-
 [weather_box]{
     display: grid;
     align-items: center;
     align-content: center;
 }
-
 [weather_icon_box]{
     width: 150px;
     height: 150px;
@@ -96,7 +78,6 @@ body{
     align-content: center;
     grid-gap: 5px 0px;
 }
-
 [weather_temp_box] > span{
     text-align: center;
     text-transform: capitalize;
@@ -117,14 +98,7 @@ body{
 }
 
 
-
-
-
-
-
-
 /* moreinfo_box */
-
 [moreinfo_box]{
     display: flex;
     align-items: center;
@@ -156,29 +130,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* need_location_access_container */
 #need_location_access_container{
     position: fixed;
@@ -194,7 +145,6 @@ body{
     align-content: center;
     justify-content: center;
 }
-
 #need_location_access_container > div{
     display: grid;
     align-items: center;
