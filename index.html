@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+     <link rel="stylesheet" href="./global.css">
+    <title>Weather App | SyncCoder</title>
+</head>
+<body>
+
+    <div id="main_container">
+        <div search_box>
+            <input type="text" id="search_inp" placeholder="Enter Location Name">
+            <button id="search_button"><img src="./images/search.png"></button>
+        </div>
+        <div weather_box>
+            <div weather_icon_box>
+                <img src="./images/weather.png" alt="weather_icons" id="weather_icon_image">
+            </div>
+            <div weather_temp_box>
+                <div><span id="curr_temp_c">0</span><span>°C</span></div>
+                <span id="curr_location">Not Found</span>
+            </div>
+        </div>
+        <div moreinfo_box>
+            <!-- Humidity -->
+            <div>
+                <span>
+                    <img src="./images/humidity.png" alt="Humidity Image">
+                </span>
+                <span>
+                    <span id="curr_humidity">0%</span>
+                    <span>Humidity</span>
+                </span>
+            </div>
+            <!-- Wind -->
+            <div>
+                <span>
+                    <img src="./images/wind.png" alt="wind Image">
+                </span>
+                <span>
+                    <span id="curr_wind">0%</span>
+                    <span>Wind</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+<script src="./main.js"></script>
+</body>
+</html>

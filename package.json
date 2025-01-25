@@ -1,0 +1,18 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "This is a weather app built using HTML, CSS, and JavaScript. The app provides real-time weather information by fetching data from reliable weather APIs. It is designed with a user-friendly interface, ensuring seamless navigation and easy access to accurate weather updates.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "DakshDev"
+  },
+  "keywords": [
+    "weather-app"
+  ],
+  "author": "Daksh Kishore",
+  "license": "ISC"
+}

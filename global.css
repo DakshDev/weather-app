@@ -1,0 +1,226 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #232323;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#main_container{
+    height: 600px;
+    width: 450px;
+    background: linear-gradient(#1abc9c, #2ecc71);
+    display: grid;
+    align-items: space-between;
+    align-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/* Search Box */
+
+[search_box]{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+[search_box] > input{
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+    background: #f6f6f6;
+}
+
+[search_box] > button{
+    height: 35px;
+    width: 35px;
+    padding: 7px;
+    background: #f6f6f6;
+    cursor: pointer;
+}
+[search_box] > button:hover{
+    background: rgb(219, 219, 219);
+}
+
+
+
+
+
+
+
+/* Weather Box */
+
+[weather_box]{
+    display: grid;
+    align-items: center;
+    align-content: center;
+}
+
+[weather_icon_box]{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+[weather_temp_box]{
+    margin: auto;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-gap: 5px 0px;
+}
+
+[weather_temp_box] > span{
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+[weather_temp_box] > div {
+    display: flex;
+    justify-content: center;
+}
+[weather_temp_box] > div > span{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ffffff;
+}
+[weather_temp_box] > span:nth-child(2){
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/* moreinfo_box */
+
+[moreinfo_box]{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    height: 100px;
+   
+}
+[moreinfo_box] > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+}
+[moreinfo_box] > div > span:nth-child(2){
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-gap: 5px 0px;
+    color: #ffffff;
+}
+[moreinfo_box] > div > span:nth-child(2) span:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+}
+[moreinfo_box] img{
+    height: 35px;
+    width: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* need_location_access_container */
+#need_location_access_container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    background: #232323dc;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#need_location_access_container > div{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-gap: 20px 0px;
+    width: 80%;
+}
+#need_location_access_container > div h1{
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+#need_location_access_container > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#need_location_access_container > div > div button{
+    padding: 10px 20px;
+    background: #2ecc71;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+#need_location_access_container > div > div button:active{
+    scale: 0.95;
+}
